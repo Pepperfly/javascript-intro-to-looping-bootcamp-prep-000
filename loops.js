@@ -16,7 +16,9 @@ function whileLoop(n) {
 //         counts down from n to 0:
   while (n > 0) {
     n--;
-    
+    if (n === 0) {
+      return "done";
+    }
   }
 }
 
