@@ -14,14 +14,13 @@ function whileLoop(n) {
   while (n > 0) {
     n--;
   }
-  return "done";
+  return;
 }
 
 
 function doWhileLoop(array) {
   do {
     array.pop();
-//    incrementVariable();
   } while (array.length > 0);
 	return array;
 }
