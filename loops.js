@@ -27,6 +27,6 @@ function whileLoop(n) {
 function doWhileLoop(array) {
 //        removes elements from `array` until `array` is empty or until `incrementVariable()` returns `false`:
   do {
-    delete array[array.length-1];
-  } while (i < array.length());
+    delete array[0];
+  } while (array.length() > 0);
 }
