@@ -21,6 +21,16 @@ function whileLoop(n) {
 }
 
 
+var i = 0;
+ 
+function incrementVariable() {
+  i = i + 1;
+}
+ 
+do {
+  console.log("doo-bee-doo-bee-doo");
+  incrementVariable();
+} while (i < 5);
 
 function doWhileLoop(array) {
 //        removes elements from `array` until `array` is empty or until `incrementVariable()` returns `false`:
