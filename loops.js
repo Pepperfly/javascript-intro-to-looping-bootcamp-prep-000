@@ -24,7 +24,7 @@ function whileLoop(n) {
 function doWhileLoop(array) {
 //        removes elements from `array` until `array` is empty or until `incrementVariable()` returns `false`:
   do {
-    delete array[array.length - 1];
+    delete array[i];
     incrementVariable();
   } while (array.length > 0 && incrementVariable());
 }
@@ -33,6 +33,6 @@ function doWhileLoop(array) {
 var i = 0;
  
 function incrementVariable() {
-  i = i + 1;
+  i++;
 }
  
