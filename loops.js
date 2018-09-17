@@ -10,3 +10,20 @@ function forLoop(array) {
   }
   return array;
 }
+
+
+function whileLoop(n) {
+//         counts down from n to 0:
+  while (n > 0) {
+    n--;
+  }
+}
+
+
+
+function doWhileLoop(array) {
+//        removes elements from `array` until `array` is empty or until `incrementVariable()` returns `false`:
+  do {
+    delete array[array.length-1];
+  } while (i < array.length());
+}
