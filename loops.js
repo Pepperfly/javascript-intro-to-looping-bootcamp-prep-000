@@ -9,7 +9,7 @@ function forLoop(array) {
   return array;
 }
 
-
+var n = 83;
 function whileLoop(n) {
   while (n > 0) {
     n--;
