@@ -26,10 +26,3 @@ function doWhileLoop(array) {
 	return array;
 }
 
-
-var i = 0;
- 
-function incrementVariable() {
-  i++;
-}
- 
