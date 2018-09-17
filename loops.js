@@ -1,6 +1,4 @@
 function forLoop(array) {
-  //adds `"I am ${i} strange loop${i === 0 ? '' : 's'}."` to an array 25 times
-  
   for (let i=0; i<25; i++) {
     if (i-1 === 0) {
     	array.push("I am " + i + " strange loop.");
@@ -13,7 +11,6 @@ function forLoop(array) {
 
 
 function whileLoop(n) {
-//         counts down from n to 0:
   while (n > 0) {
     n--;
   }
@@ -22,10 +19,9 @@ function whileLoop(n) {
 
 
 function doWhileLoop(array) {
-//        removes elements from `array` until `array` is empty or until `incrementVariable()` returns `false`:
   do {
     array.pop();
-    incrementVariable();
+//    incrementVariable();
   } while (array.length > 0);
 	return array;
 }
